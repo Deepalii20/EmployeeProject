@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <!-- Your bean definitions go here -->
+
+    <!-- Your bean definitions and configuration go here -->
+    <bean class="com.example.spring.SpringProj1.Student" id="st">
+        <property name="name" value="amit"/>
+        <property name="rollno" value="22"/>
+        <property name="age" value="30"/>
+    </bean>
+    
+    <bean class="com.example.spring.SpringProj1.JavaTeacher" id="j1">
+        <property name="teacher_name" value="amit"/>
+        <property name="teacher_id" value="22"/>
+       
+    </bean>
+    
+    <bean class="com.example.spring.SpringProj1.SqlTeacher" id="s1">
+        <property name="teacher_name" value="mans"/>
+        <property name="teacher_id" value="22"/>
+       
+    </bean>
+    
+    <bean class="com.example.spring.SpringProj1.PythonTeacher" id="p1">
+        <property name="teacher_name" value="bujji"/>
+        <property name="teacher_id" value="22"/>
+       
+    </bean>
+
+</beans>
